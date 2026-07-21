@@ -19,7 +19,7 @@ let
 in
 buildDotnetModule (finalAttrs: {
   pname = "yafc-ce";
-  version = "2.19.0";
+  version = "2.20.0";
 
   src = fetchFromGitHub {
     owner = "Yafc-CE";
